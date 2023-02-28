@@ -45,7 +45,7 @@ public class TechBlogTestClass extends Base{
 		signup.clickDropdown();
 		signup.clickSignup();
 		signup.clearData();
-		
+		System.out.println("User verified");
 
     	 user=new User_login (driver);
     			user.clickDropdown();
