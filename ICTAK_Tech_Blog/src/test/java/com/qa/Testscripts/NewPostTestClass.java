@@ -158,7 +158,7 @@ public class NewPostTestClass extends Base{
 		newpost.clickNewPost();	
 		newpost.scrollPageDown();
 		boolean expectedValue = false;
-		boolean actualValue = newpost.isEnabledSendForApproval();
+		boolean actualValue = newpost.isEnabledSubmitButton();
 		Assert.assertEquals(actualValue, expectedValue);
 		newpost.scrollPageUp();
 		newpost.clickLogout();		
