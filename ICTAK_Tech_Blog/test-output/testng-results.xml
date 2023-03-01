@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-28T15:04:14 IST" name="Default suite" finished-at="2023-02-28T15:05:26 IST" duration-ms="72191">
+  <suite started-at="2023-03-01T22:13:28 IST" name="Default suite" finished-at="2023-03-01T22:14:17 IST" duration-ms="49338">
     <groups>
     </groups>
-    <test started-at="2023-02-28T15:04:14 IST" name="Default test" finished-at="2023-02-28T15:05:26 IST" duration-ms="72191">
-      <class name="com.qa.Testscripts.TestClassLogout">
-        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.qa.Testscripts.TestClassLogout@2e005c4b]" started-at="2023-02-28T15:04:14 IST" name="onSetup" finished-at="2023-02-28T15:04:24 IST" duration-ms="10616" status="PASS">
+    <test started-at="2023-03-01T22:13:28 IST" name="Default test" finished-at="2023-03-01T22:14:17 IST" duration-ms="49338">
+      <class name="com.qa.Testscripts.NewPostTestClass">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.qa.Testscripts.NewPostTestClass@3ce1e309]" started-at="2023-03-01T22:13:28 IST" name="onSetup" finished-at="2023-03-01T22:13:41 IST" duration-ms="13466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onSetup -->
-        <test-method signature="Logoutasadmin()[pri:1, instance:com.qa.Testscripts.TestClassLogout@2e005c4b]" started-at="2023-02-28T15:04:24 IST" name="Logoutasadmin" finished-at="2023-02-28T15:04:45 IST" duration-ms="20290" status="PASS">
+        <test-method signature="copyRightFormatVerification()[pri:7, instance:com.qa.Testscripts.NewPostTestClass@3ce1e309]" started-at="2023-03-01T22:13:41 IST" name="copyRightFormatVerification" finished-at="2023-03-01T22:14:14 IST" duration-ms="32407" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Logoutasadmin -->
-        <test-method signature="LogoutasUser()[pri:2, instance:com.qa.Testscripts.TestClassLogout@2e005c4b]" started-at="2023-02-28T15:04:45 IST" name="LogoutasUser" finished-at="2023-02-28T15:05:04 IST" duration-ms="19100" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutasUser -->
-        <test-method signature="LogoutasTrainer()[pri:3, instance:com.qa.Testscripts.TestClassLogout@2e005c4b]" started-at="2023-02-28T15:05:04 IST" name="LogoutasTrainer" finished-at="2023-02-28T15:05:23 IST" duration-ms="18867" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LogoutasTrainer -->
-        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:com.qa.Testscripts.TestClassLogout@2e005c4b]" started-at="2023-02-28T15:05:23 IST" name="closeWebsite" finished-at="2023-02-28T15:05:26 IST" duration-ms="3265" status="PASS">
+        </test-method> <!-- copyRightFormatVerification -->
+        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:com.qa.Testscripts.NewPostTestClass@3ce1e309]" started-at="2023-03-01T22:14:14 IST" name="closeWebsite" finished-at="2023-03-01T22:14:17 IST" duration-ms="3416" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWebsite -->
-      </class> <!-- com.qa.Testscripts.TestClassLogout -->
+      </class> <!-- com.qa.Testscripts.NewPostTestClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
