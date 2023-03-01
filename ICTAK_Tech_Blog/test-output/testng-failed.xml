@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.Testscripts.TestClassApproval">
+      <class name="com.qa.Testscripts.TestClassSignup">
         <methods>
           <include name="closeWebsite"/>
+          <include name="singup_userVerification"/>
           <include name="onSetup"/>
-          <include name="Loginasadmin"/>
         </methods>
-      </class> <!-- com.qa.Testscripts.TestClassApproval -->
+      </class> <!-- com.qa.Testscripts.TestClassSignup -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

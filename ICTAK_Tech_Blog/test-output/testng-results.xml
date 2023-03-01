@@ -2,32 +2,32 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-28T15:04:14 IST" name="Default suite" finished-at="2023-02-28T15:05:26 IST" duration-ms="72191">
+  <suite started-at="2023-03-01T22:16:18 IST" name="Default suite" finished-at="2023-03-01T22:19:09 IST" duration-ms="170429">
     <groups>
     </groups>
-    <test started-at="2023-02-28T15:04:14 IST" name="Default test" finished-at="2023-02-28T15:05:26 IST" duration-ms="72191">
-      <class name="com.qa.Testscripts.TestClassLogout">
-        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.qa.Testscripts.TestClassLogout@2e005c4b]" started-at="2023-02-28T15:04:14 IST" name="onSetup" finished-at="2023-02-28T15:04:24 IST" duration-ms="10616" status="PASS">
+    <test started-at="2023-03-01T22:16:18 IST" name="Default test" finished-at="2023-03-01T22:19:09 IST" duration-ms="170429">
+      <class name="com.qa.Testscripts.TestClassLogin">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.qa.Testscripts.TestClassLogin@2e005c4b]" started-at="2023-03-01T22:16:18 IST" name="onSetup" finished-at="2023-03-01T22:16:27 IST" duration-ms="8526" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onSetup -->
-        <test-method signature="Logoutasadmin()[pri:1, instance:com.qa.Testscripts.TestClassLogout@2e005c4b]" started-at="2023-02-28T15:04:24 IST" name="Logoutasadmin" finished-at="2023-02-28T15:04:45 IST" duration-ms="20290" status="PASS">
+        <test-method signature="Loginasadmin()[pri:1, instance:com.qa.Testscripts.TestClassLogin@2e005c4b]" started-at="2023-03-01T22:16:27 IST" name="Loginasadmin" finished-at="2023-03-01T22:17:20 IST" duration-ms="53583" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Logoutasadmin -->
-        <test-method signature="LogoutasUser()[pri:2, instance:com.qa.Testscripts.TestClassLogout@2e005c4b]" started-at="2023-02-28T15:04:45 IST" name="LogoutasUser" finished-at="2023-02-28T15:05:04 IST" duration-ms="19100" status="PASS">
+        </test-method> <!-- Loginasadmin -->
+        <test-method signature="LoginasUser()[pri:2, instance:com.qa.Testscripts.TestClassLogin@2e005c4b]" started-at="2023-03-01T22:17:20 IST" name="LoginasUser" finished-at="2023-03-01T22:18:13 IST" duration-ms="52518" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LogoutasUser -->
-        <test-method signature="LogoutasTrainer()[pri:3, instance:com.qa.Testscripts.TestClassLogout@2e005c4b]" started-at="2023-02-28T15:05:04 IST" name="LogoutasTrainer" finished-at="2023-02-28T15:05:23 IST" duration-ms="18867" status="PASS">
+        </test-method> <!-- LoginasUser -->
+        <test-method signature="LoginasTrainer()[pri:3, instance:com.qa.Testscripts.TestClassLogin@2e005c4b]" started-at="2023-03-01T22:18:13 IST" name="LoginasTrainer" finished-at="2023-03-01T22:19:06 IST" duration-ms="52534" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LogoutasTrainer -->
-        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:com.qa.Testscripts.TestClassLogout@2e005c4b]" started-at="2023-02-28T15:05:23 IST" name="closeWebsite" finished-at="2023-02-28T15:05:26 IST" duration-ms="3265" status="PASS">
+        </test-method> <!-- LoginasTrainer -->
+        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:com.qa.Testscripts.TestClassLogin@2e005c4b]" started-at="2023-03-01T22:19:06 IST" name="closeWebsite" finished-at="2023-03-01T22:19:09 IST" duration-ms="3228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWebsite -->
-      </class> <!-- com.qa.Testscripts.TestClassLogout -->
+      </class> <!-- com.qa.Testscripts.TestClassLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

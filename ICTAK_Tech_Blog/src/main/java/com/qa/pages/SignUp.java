@@ -31,8 +31,9 @@ public class SignUp extends Base {
 	private WebElement passwordalert;
 	@FindBy(xpath="//b[text()='Enter Valid Email']")
 	private WebElement emailalert;
-	/*@FindBy(xpath="//u[text()='signup']")
-	private WebElement signupback;*/
+	@FindBy(xpath="//select[@formcontrolname='id']")
+	private WebElement account;
+	
 	public SignUp(WebDriver driver)
 	{
 		this.driver=driver;
@@ -58,8 +59,15 @@ public class SignUp extends Base {
 	{
 		accountType.click();
 		Select select = new Select(accountType);
-		select.selectByVisibleText("user");
 		select.selectByVisibleText("trainer");
+		Thread.sleep(3000);
+		
+	}
+	public void clickAccount() throws Exception
+	{
+		account.click();
+		Select select = new Select(account);
+		select.selectByVisibleText("user");
 		Thread.sleep(3000);
 		
 	}
