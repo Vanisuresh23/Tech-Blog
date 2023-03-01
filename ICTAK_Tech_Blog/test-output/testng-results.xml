@@ -2,24 +2,55 @@
 <testng-results ignored="7" total="8" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2023-03-01T22:13:28 IST" name="Default suite" finished-at="2023-03-01T22:14:17 IST" duration-ms="49338">
+=======
+  <suite started-at="2023-03-01T22:16:18 IST" name="Default suite" finished-at="2023-03-01T22:19:09 IST" duration-ms="170429">
+>>>>>>> branch 'master' of https://github.com/Vanisuresh23/Tech-Blog.git
     <groups>
     </groups>
+<<<<<<< HEAD
     <test started-at="2023-03-01T22:13:28 IST" name="Default test" finished-at="2023-03-01T22:14:17 IST" duration-ms="49338">
       <class name="com.qa.Testscripts.NewPostTestClass">
         <test-method is-config="true" signature="onSetup()[pri:0, instance:com.qa.Testscripts.NewPostTestClass@3ce1e309]" started-at="2023-03-01T22:13:28 IST" name="onSetup" finished-at="2023-03-01T22:13:41 IST" duration-ms="13466" status="PASS">
+=======
+    <test started-at="2023-03-01T22:16:18 IST" name="Default test" finished-at="2023-03-01T22:19:09 IST" duration-ms="170429">
+      <class name="com.qa.Testscripts.TestClassLogin">
+        <test-method is-config="true" signature="onSetup()[pri:0, instance:com.qa.Testscripts.TestClassLogin@2e005c4b]" started-at="2023-03-01T22:16:18 IST" name="onSetup" finished-at="2023-03-01T22:16:27 IST" duration-ms="8526" status="PASS">
+>>>>>>> branch 'master' of https://github.com/Vanisuresh23/Tech-Blog.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onSetup -->
+<<<<<<< HEAD
         <test-method signature="copyRightFormatVerification()[pri:7, instance:com.qa.Testscripts.NewPostTestClass@3ce1e309]" started-at="2023-03-01T22:13:41 IST" name="copyRightFormatVerification" finished-at="2023-03-01T22:14:14 IST" duration-ms="32407" status="PASS">
+=======
+        <test-method signature="Loginasadmin()[pri:1, instance:com.qa.Testscripts.TestClassLogin@2e005c4b]" started-at="2023-03-01T22:16:27 IST" name="Loginasadmin" finished-at="2023-03-01T22:17:20 IST" duration-ms="53583" status="PASS">
+>>>>>>> branch 'master' of https://github.com/Vanisuresh23/Tech-Blog.git
           <reporter-output>
           </reporter-output>
+<<<<<<< HEAD
         </test-method> <!-- copyRightFormatVerification -->
         <test-method is-config="true" signature="closeWebsite()[pri:0, instance:com.qa.Testscripts.NewPostTestClass@3ce1e309]" started-at="2023-03-01T22:14:14 IST" name="closeWebsite" finished-at="2023-03-01T22:14:17 IST" duration-ms="3416" status="PASS">
+=======
+        </test-method> <!-- Loginasadmin -->
+        <test-method signature="LoginasUser()[pri:2, instance:com.qa.Testscripts.TestClassLogin@2e005c4b]" started-at="2023-03-01T22:17:20 IST" name="LoginasUser" finished-at="2023-03-01T22:18:13 IST" duration-ms="52518" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginasUser -->
+        <test-method signature="LoginasTrainer()[pri:3, instance:com.qa.Testscripts.TestClassLogin@2e005c4b]" started-at="2023-03-01T22:18:13 IST" name="LoginasTrainer" finished-at="2023-03-01T22:19:06 IST" duration-ms="52534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginasTrainer -->
+        <test-method is-config="true" signature="closeWebsite()[pri:0, instance:com.qa.Testscripts.TestClassLogin@2e005c4b]" started-at="2023-03-01T22:19:06 IST" name="closeWebsite" finished-at="2023-03-01T22:19:09 IST" duration-ms="3228" status="PASS">
+>>>>>>> branch 'master' of https://github.com/Vanisuresh23/Tech-Blog.git
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeWebsite -->
+<<<<<<< HEAD
       </class> <!-- com.qa.Testscripts.NewPostTestClass -->
+=======
+      </class> <!-- com.qa.Testscripts.TestClassLogin -->
+>>>>>>> branch 'master' of https://github.com/Vanisuresh23/Tech-Blog.git
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

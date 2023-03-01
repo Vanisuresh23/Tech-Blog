@@ -19,7 +19,7 @@ public class TestClassSignup extends Base{
 		signup.clickSignup();
 		String Uname=ExcelUtility.getCellData(0,0,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
 		signup.enterName(Uname);
-		signup.clickAccountType();
+		signup.clickAccount();
 		String Uemail=ExcelUtility.getCellData(0,1,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
 		signup.enterEmail(Uemail);
 		String Upassword=ExcelUtility.getCellData(0,2,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
@@ -36,7 +36,7 @@ public class TestClassSignup extends Base{
 		//invalid password
 		String Uname1=ExcelUtility.getCellData(1,0,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
 		signup.enterName(Uname1);
-		signup.clickAccountType();
+		signup.clickAccount();
 		String Uemail1=ExcelUtility.getCellData(1,1,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
 		signup.enterEmail(Uemail1);
 		String Upassword1=ExcelUtility.getCellData(1,2,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
@@ -50,7 +50,7 @@ public class TestClassSignup extends Base{
 		//invalid Data
 		String Uname2=ExcelUtility.getCellData(2,0,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
 		signup.enterName(Uname2);
-		signup.clickAccountType();
+		signup.clickAccount();
 		String Uemail2=ExcelUtility.getCellData(2,1,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
 		signup.enterEmail(Uemail2);
 		String actualmessage=signup.getTextofemail();
@@ -68,7 +68,7 @@ public class TestClassSignup extends Base{
 		//invalid Email
 		String Uname3=ExcelUtility.getCellData(3,0,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
 		signup.enterName(Uname3);
-		signup.clickAccountType();
+		signup.clickAccount();
 		String Uemail3=ExcelUtility.getCellData(3,1,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
 		signup.enterEmail(Uemail3);
 		String Upassword3=ExcelUtility.getCellData(3,2,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",0);
@@ -106,10 +106,11 @@ public class TestClassSignup extends Base{
 		String Tpassword=ExcelUtility.getCellData(0,2,System.getProperty("user.dir")+"\\src/main/resources/TechBlog.xlsx",1);
 		signup.enterPassword(Tpassword);
 		
-		signup.clickSubmit();
 		boolean expected=true;
 		boolean actual=signup.isEnabledSubmit();
 		Assert.assertEquals(actual, expected);
+		signup.clickSubmit();
+		driver.switchTo().alert().accept();
 		signup.clickDropdown();
 		signup.clickSignup();
 		signup.clearData();

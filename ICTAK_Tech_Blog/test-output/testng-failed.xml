@@ -3,13 +3,25 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.qa.Testscripts.NewPostTestClass">
+=======
+      <class name="com.qa.Testscripts.TestClassSignup">
+>>>>>>> branch 'master' of https://github.com/Vanisuresh23/Tech-Blog.git
         <methods>
           <include name="closeWebsite"/>
+          <include name="singup_userVerification"/>
           <include name="onSetup"/>
+<<<<<<< HEAD
           <include name="copyRightFormatVerification"/>
+=======
+>>>>>>> branch 'master' of https://github.com/Vanisuresh23/Tech-Blog.git
         </methods>
+<<<<<<< HEAD
       </class> <!-- com.qa.Testscripts.NewPostTestClass -->
+=======
+      </class> <!-- com.qa.Testscripts.TestClassSignup -->
+>>>>>>> branch 'master' of https://github.com/Vanisuresh23/Tech-Blog.git
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
